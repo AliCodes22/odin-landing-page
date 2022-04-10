@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;   
+}
+
+#hero{
+    background:#1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h1,h2{
+    color: #F9FAF8;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    width: 50%;
+}
+
+main p{
+    margin-bottom: 10px;
+}
+
+
+main p, a{
+    font-size: 14px;
+    color: #dee0e4;
+}
+
+main button{
+    background: #3882f6;
+    border-radius: 10%;
+    font-weight: 600;
+    color: white;
+    padding: 0px 10px;
+}
+
+#info{
+    padding: 20px 20px;
+}
+
+#info h2{
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.boxes{
+    display:flex;
+    justify-content:space-around;
+}
+
+.boxes div{
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.subtext{
+    display: flex;
+    justify-content: space-around;
+}
+
+#quote{
+    background: #E5E7EB;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#quote p{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+#quote span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+#action{
+    background: rgba(74, 210, 255, 0.973);
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 25px 50px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#action p{
+    color: #f9faf8;
+}
+
+
+#action button{
+    align-self: flex-end;
+    margin-top: -20px;
+    padding: 0px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+}
+
+
+.call{
+    color: #fff;
+}
