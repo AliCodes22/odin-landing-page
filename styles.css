@@ -20,7 +20,7 @@ ul{
     display: flex;
     gap: 40px;
     list-style: none;
-    align-items: flex-end;
+    align-items: center;
 }
 
 a{
@@ -61,8 +61,7 @@ main p, a{
 
 main button{
     background: #3882f6;
-    border-radius: 10%;
-    font-weight: 600;
+    border-radius: 20%;
     color: white;
     padding: 0px 10px;
 }
@@ -121,7 +120,7 @@ main button{
     background: rgba(74, 210, 255, 0.973);
     border-radius: 20px;
     margin: 30px auto;
-    padding: 25px 50px;
+    padding: 25px;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -135,12 +134,18 @@ main button{
 
 #action button{
     align-self: flex-end;
-    margin-top: -20px;
-    padding: 0px 10px;
     border: 2px solid white;
+    padding: 0 10px;
     border-radius: 20px;
     background: transparent;
     color: #fff;
+    position: relative;
+    bottom: 25px;
+}
+
+#action button:hover{
+    cursor: pointer;
+    color: rgb(0,0,200);
 }
 
 
